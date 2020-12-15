@@ -94,7 +94,7 @@ class SignupForm extends React.Component<IProps, IState> {
             />
             {/* <input type="text" placeholder="name"> */}
             <i className="fas fa-exclamation-circle"></i>
-            <small>{this.state.firstNameError}</small>
+            <small className="error">{this.state.firstNameError}</small>
           </div>
           <div id="lastname">
             <input
@@ -107,7 +107,7 @@ class SignupForm extends React.Component<IProps, IState> {
             />
             {/* <input type="text" placeholder="name"> */}
             <i className="fas fa-exclamation-circle"></i>
-            <small>{this.state.lastNameError}</small>
+            <small className="error">{this.state.lastNameError}</small>
           </div>
           <div id="email">
             <input
@@ -119,7 +119,7 @@ class SignupForm extends React.Component<IProps, IState> {
               onChange={this.onChangeHandler}
             />
             <i className="fas fa-exclamation-circle"></i>
-            <small>{this.state.emailError}</small>
+            <small className="error">{this.state.emailError}</small>
           </div>
           <div id="password1">
             <input
@@ -131,7 +131,7 @@ class SignupForm extends React.Component<IProps, IState> {
               onChange={this.onChangeHandler}
             />
             <i className="fas fa-exclamation-circle"></i>
-            <small>{this.state.passwordError}</small>
+            <small className="error">{this.state.passwordError}</small>
           </div>
           <div>
             <button type="submit">CLAIM YOUR FREE TRIAL</button>

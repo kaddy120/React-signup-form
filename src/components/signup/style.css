@@ -70,6 +70,14 @@ form input{
    
 }
 
+small[class="error"]{
+    color: rgb(235, 50, 50);
+    float: right;
+    font-style: oblique;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
 form i{
     position: absolute;
     top: 30px;
@@ -94,6 +102,7 @@ form button{
 
 form button:hover{
     background-color: rgb(77, 187, 77);
+    border: none;
 }
 small[id="terms-and-cond"]
 {
