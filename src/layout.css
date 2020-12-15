@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrepper{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+   
+}
+.left{
+    flex: 1;
+    margin: 0% 60px;
+    color: rgb(238, 236, 236);
+}
+
+.right{
+    flex: 1;
+    
+}
+
+.left h1{
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
